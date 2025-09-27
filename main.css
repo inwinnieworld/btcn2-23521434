@@ -1,0 +1,67 @@
+/* CSS cho div giới thiệu */
+#gioithieu {
+    background-color: #F3FDE8;
+    padding: 20px;
+}
+
+/* CSS cho div liên lạc */
+#lienlac {
+    background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+    background-repeat: repeat;
+    text-align: center;
+    padding: 20px;
+}
+
+/* CSS cho từng tiêu đề */
+h1 {
+    font-size: 24px;
+    color: #CAEDFF;
+    -webkit-text-stroke: 1px black;
+}
+h2 {
+    font-size: 24px;
+    color: #D8B4F8;
+    -webkit-text-stroke: 1px black;
+}
+h3 {
+    font-size: 24px;
+    color: #FFC7EA;
+    -webkit-text-stroke: 1px black;
+}
+h4 {
+    font-size: 24px;
+    color: black;
+    -webkit-text-stroke: 1px black;
+}
+
+/* CSS cho bảng mục tiêu */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* CSS căn giữa ảnh đại diện */
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* CSS cho nav và footer */
+nav, footer {
+    background-color: #d4f2f4;
+    color: #0b0848;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* CSS cho liên kết trong nav */
+nav a {
+    color: #0b0848;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
